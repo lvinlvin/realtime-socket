@@ -12,24 +12,24 @@ npm install body-parser
 After install completed you can continue.
 
 
-Create a app.js. Below is the script file will be handle. 
--Setup require that I need, like express, http, socket.io, mysql and body-parser
--Using MYSQL as Database.
--Setup CORS allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources. 
--io.on('connection') method in server listens for any new client-side socket connections. When the client loads a page with Socket.IO on the client side, a new connection will be created here.
--Setup Socket name call "listening" to listen the port and getting real time data
--Using app.listen() to bind and listen the connections on the specified host and port.
--Use Http creates a server to listening Socket.io.
--Final, setup a port for WebSocket(2500) and API(3100).
+Create a app.js. Below is the script file will be handle.</br>
+-Setup require that I need, like express, http, socket.io, mysql and body-parser</br>
+-Using MYSQL as Database.</br>
+-Setup CORS allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources. </br>
+-io.on('connection') method in server listens for any new client-side socket connections. When the client loads a page with Socket.IO on the client side, a new connection will be created here.</br>
+-Setup Socket name call "listening" to listen the port and getting real time data.</br>
+-Using app.listen() to bind and listen the connections on the specified host and port.</br>
+-Use Http creates a server to listening Socket.io.</br>
+-Final, setup a port for WebSocket(2500) and API(3100).</br>
 
-Create a item.js script to handle the Router callback function. 
--Use Router specify a callback function called when the application receives a request to the specified endpoint and HTTP method.
+Create a item.js script to handle the Router callback function.</br> 
+-Use Router specify a callback function called when the application receives a request to the specified endpoint and HTTP method.</br>
 -Setup GET request to get all information item with review Data. 
 
 
 
-Database Detail
-Schemas 
+Database Detail</br>
+Schemas </br>
 ·ratechallenge
 
 Generate TABLE
