@@ -1,6 +1,6 @@
-Create a API and Socket IO
+<b>Create a API and Socket IO<b>
 
-First, I'm using Window for this project
+First, I'm using Window 10 for this project.
 
 Open Terminal</br>
 copy the word below to continue</br>
@@ -9,7 +9,9 @@ npm install mysql</br>
 npm install socket.io</br>
 npm install body-parser</br>
 
-After install completed you can continue.
+After install completed you can continue.</br>
+If you plan to start this project, please open Terminal and input the keyword as below.</br>
+nodemon app.js
 
 
 Create a app.js. Below is the script file will be handle.</br>
@@ -46,3 +48,5 @@ CREATE TABLE `ratechallenge`.`rate` (
 `item_id` LONGTEXT NULL,
 `created_at` DATETIME NULL,
 PRIMARY KEY (`id`));
+
+Table 'item' column 'active' is to display or hide the product at Front-end.
