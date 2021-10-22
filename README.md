@@ -2,12 +2,12 @@ Create a API and Socket IO
 
 First, I'm using Window for this project
 
-Open Terminal
-copy the word below to continue
-npm install -g nodemon 
-npm install mysql
-npm install socket.io
-npm install body-parser
+Open Terminal</br>
+copy the word below to continue</br>
+npm install -g nodemon </br>
+npm install mysql</br>
+npm install socket.io</br>
+npm install body-parser</br>
 
 After install completed you can continue.
 
