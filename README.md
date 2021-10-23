@@ -4,6 +4,7 @@ First, I'm using Window 10 for this project.
 
 Open Terminal</br>
 copy the word below to continue</br>
+npm install
 npm install -g nodemon </br>
 npm install mysql</br>
 npm install socket.io</br>
